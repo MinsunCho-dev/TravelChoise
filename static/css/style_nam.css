@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.search_input{
+    position: relative;
+   text-align: center;
+   margin-top:150px;
+   
+   width: 70%;;
+   height:40px;
+
+
+}
+
+
+.logo {
+    line-height: 150px;
+    width: 800px;
+    font-family: 'CWDangamAsac-Bold';
+    font-size: 70px;
+    background-color: #B2CCFF;
+    text-decoration-line : none;
+    color: white;
+    text-align: center;
+}
+.banner {
+    z-index: 2;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #B2CCFF;
+    text-align: center;
+    
+}
+.login {
+    position: fixed;
+    top: 65px;
+    right: 100px;
+    text-decoration-line : none;
+    color: white;
+}
+.card_img{
+    position:relative;
+    overflow: hidden;
+    cursor:pointer;
+
+}
+.card{
+    max-width: 90rem;
+}
+.card-img-top{
+    width:30%;
+    height:30%;
+    display:block;
+    margin:auto
+}
