@@ -7,3 +7,6 @@ exports.login = (req,res)=>{
 exports.signup = (req,res)=>{
     res.render("signup")
 }
+exports.search = (req,res)=>{
+    res.render("search")
+}
